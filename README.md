@@ -1,0 +1,2 @@
+# MBA-2024-CYPRESS-AUTOMATION
+cypress practice 2024
