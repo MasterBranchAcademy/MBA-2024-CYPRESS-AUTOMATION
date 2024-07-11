@@ -3,7 +3,7 @@ cypress practice 2024
 
 This project contains automated tests for Automation Test Store using Cypress, written in JavaScript, and following the Page Object Model (POM) design pattern.
 
-### Table of Contents
+### Table of Contents <hr>
 
 1. [Prerequisites](#Prerequisites)
 2. [Installation](#installation)
@@ -13,26 +13,26 @@ This project contains automated tests for Automation Test Store using Cypress, w
 6. [Contributing](#contributing)
 7. [License](#license)
 
-### Prerequisites
+### Prerequisites <hr>
 
 Before you begin, ensure you have met the following requirements:
 
 * __Node.js__ (version 12 or later) and npm installed on your machine.
 * A code editor like VS Code.
 
-### Installation
+### Installation <hr>
 
 1. Clone the repository: <br>
-  > _git clone https://github.com/your-username/automation-test-store-cypress.git_
+  > _git clone https://github.com/MasterBranchAcademy/MBA-2024-CYPRESS-AUTOMATION.git_
 2. Navigate to the project directory: <br>
-  > _cd automation-test-store-cypress_
+  > _cd MBA-2024-CYPRESS-AUTOMATION_
 3. Install the dependencies:
   > _npm install_
 
-### Project Structure
+### Project Structure <hr>
 The project follows a structured format for better organization and maintainability:
 
-> * automation-test-store-cypress/
+> * MBA-2024-CYPRESS-AUTOMATION/
 >  * cypress/
 >    * e2e/
 >      * pages/
@@ -48,6 +48,7 @@ The project follows a structured format for better organization and maintainabil
 >   * package.json
 >   * package-lock.json
 >   * cypress.config.js
+>   * .gitignore
 >   * README.md
 
 
@@ -57,7 +58,7 @@ The project follows a structured format for better organization and maintainabil
 > * support/index.js: Support file.
 
 
-### Writing Tests
+### Writing Tests <hr>
 1. Create a new test file in cypress/integration/tests/:
 > // cypress/integration/tests/exampleTest.spec.js <br>
 import HomePage from '../../support/pageObjects/HomePage'; <br><br>
@@ -81,7 +82,7 @@ return cy.get('.logo'); <br>
 } <br>
 export default HomePage;
 
-### Running Tests
+### Running Tests <hr>
 To run the tests, use the following commands:
 
 1. Open Cypress Test Runner:
@@ -89,10 +90,10 @@ To run the tests, use the following commands:
 2. Run Cypress tests in headless mode:
 > npx cypress run
 
-### Contributing
+### Contributing <hr>
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-### License
+### License <hr> 
 This project is licensed under the MBA License.
 
 
