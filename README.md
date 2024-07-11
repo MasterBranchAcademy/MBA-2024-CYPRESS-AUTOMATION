@@ -40,8 +40,7 @@ The project follows a structured format for better organization and maintainabil
 >         * LoginPage.js
 >      * tests/
 >        * exampleTest.spec.js
->    * fixtures/    
->      * example.json/    
+>    * fixtures/        
 >    * supports/    
 >       * commands.js
 >       * locators.js
@@ -57,30 +56,6 @@ The project follows a structured format for better organization and maintainabil
 > * support/commands.js: Custom commands.
 > * support/index.js: Support file.
 
-
-### Writing Tests <hr>
-1. Create a new test file in cypress/integration/tests/:
-> // cypress/integration/tests/exampleTest.spec.js <br>
-import HomePage from '../../support/pageObjects/HomePage'; <br><br>
- describe('Example Test', () => {  <br>
-  const homePage = new HomePage();  <br><br>
-> it('should visit the homepage and verify the logo', () => { <br>
-    homePage.visit(); <br>
-    homePage.getLogo().should('be.visible');  <br>
-  }); <br>
-});
-
-2. Create a Page Object Model file in cypress/support/pageObjects/:
-> // cypress/support/pageObjects/HomePage.js  <br>
-class HomePage {  <br>
-visit() { <br>
-cy.visit('https://automationteststore.com/'); <br>
-} <br>
-getLogo() { <br>
-return cy.get('.logo'); <br>
-} <br>
-} <br>
-export default HomePage;
 
 ### Running Tests <hr>
 To run the tests, use the following commands:
