@@ -10,6 +10,9 @@ const LOCATORS = {
     },
     HOME_PAGE: {
     
+    },
+    LOGIN_PAGE: {
+
     }
 }
 export default LOCATORS;
