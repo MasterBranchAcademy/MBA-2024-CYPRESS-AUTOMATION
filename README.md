@@ -23,12 +23,17 @@ Before you begin, ensure you have met the following requirements:
 ### Installation <hr>
 
 1. Clone the repository: <br>
-  > _git clone https://github.com/MasterBranchAcademy/MBA-2024-CYPRESS-AUTOMATION.git_
+```bash
+  git clone https://github.com/MasterBranchAcademy/MBA-2024-CYPRESS-AUTOMATION.git
+```
 2. Navigate to the project directory: <br>
-  > _cd MBA-2024-CYPRESS-AUTOMATION_
-3. Install the dependencies:
-  > _npm install_
-
+```bash
+cd MBA-2024-CYPRESS-AUTOMATION
+```
+4. Install the dependencies:
+```bash
+npm install
+```
 ### Project Structure <hr>
 The project follows a structured format for better organization and maintainability:
 
@@ -51,7 +56,7 @@ The project follows a structured format for better organization and maintainabil
 >   * README.md
 
 
-> * e2e ## : Test files and data.
+> * e2e : Test files and data.
 > * e2e/tests/: Test files.
 > * support/commands.js: Custom commands.
 > * support/index.js: Support file.
@@ -61,9 +66,13 @@ The project follows a structured format for better organization and maintainabil
 To run the tests, use the following commands:
 
 1. Open Cypress Test Runner:
->   npx cypress open
-2. Run Cypress tests in headless mode:
-> npx cypress run
+```bash
+npx cypress open
+```
+3. Run Cypress tests in headless mode:
+```bash
+npx cypress run
+```
 
 ### Contributing <hr>
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
