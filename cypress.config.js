@@ -1,4 +1,4 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   retries: {
@@ -9,20 +9,21 @@ module.exports = defineConfig({
   requestTimeout: 20000,
   pageLoadTimeout: 50000,
   chromeWebSecurity: false,
-  viewPortWidth: 1920,
-  viewPortHeight: 1080,
+  viewportWidth: 1920,
+  viewportHeight: 1080,
   videoCompression: true,
   screenshot: true,
   e2e: {
-    baseUrl: 'https://automationteststore.com/',
+        baseUrl: 'https://automationteststore.com/',
+    },
     setupNodeEvents(on) {
-      on('before:browser:lunch', (browser = {}, launchOptions) => {
+      on('before:browser:launch', (browser = {}, launchOptions) => {
         if (browser.name === 'chrome') {
           launchOptions.args.push('--disable-dev-shm-usage');
           return launchOptions;
         }
-      })
+      },
+     );
     },
-
   },
-});
+);
