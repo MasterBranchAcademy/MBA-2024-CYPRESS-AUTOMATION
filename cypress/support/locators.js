@@ -15,7 +15,13 @@ const LOCATORS = {
     promotionImage: '.promo_icon',
     },
     LOGIN_PAGE: {
+    },
+    SEARCH_FEATURE: {
+      inputArea: '#filter_keyword',
+      searchButton: '#search_form > div > div > i',
+      searchItem: '#block_frame_latest_1770 > div > div:nth-child(3) > div.fixed_wrapper > div > a',
 
     }
+    
 }
-export default LOCATORS;
+export default LOCATORS; 
