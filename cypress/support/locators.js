@@ -19,8 +19,8 @@ const LOCATORS = {
     SEARCH_FEATURE: {
       inputArea: '#filter_keyword',
       searchButton: '#search_form > div > div > i',
-      searchItem: '#block_frame_latest_1770 > div > div:nth-child(3) > div.fixed_wrapper > div > a',
-
+      searchItem: 'Facial Cream',
+      itemResult: '#product_details > div > div:nth-child(2) > div > div > h1 > span',
     }
     
 }
