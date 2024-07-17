@@ -21,10 +21,22 @@ const LOCATORS = {
     searchButton: '.button-in-search',
     searchItem: 'Facial Cream',
     itemResult: '.bgnone',
-    emptySearch: '  ',
     emptyResult: '#maincontainer > div > div > div > div > div:nth-child(4)',
-
+  },
+  PURCHASE_FEATURE: {
+    books: '#categorymenu > nav > ul > li:nth-child(8) > a',
+    paperbooks: '#maincontainer > div > div > div > div > ul > li:nth-child(2) > a > img',
+    selectedItem: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(3) > div.thumbnail > a > img',
+    addToCardButton: '#product > fieldset > div:nth-child(4) > ul > li > a',
+    checkoutButton: '#cart_checkout2',
+    userInputBox: '#loginFrm_loginname',
+    passwordBox: '#loginFrm_password',
+    passwordButton: '#loginFrm_password',
+    loginButton: '#loginFrm > fieldset > button',
+    confirmOrderButton: '#checkout_btn',
+    assertionText: '#maincontainer > div > div > div > h1 > span.maintext',
   }
+
 
 }
 export default LOCATORS; 
