@@ -25,5 +25,13 @@ describe("Search tests", () => {
         cy.get(LOCATORS.SEARCH_FEATURE.emptyResult).should('contain', 'There is no product that matches the search criteria.')
     });
 
+    it.only("Performing a search with non-existent product", () => {
+        const item = "xyz123"
+        searchPage.searchItem(item)
+        cy.get(LOCATORS.SEARCH_FEATURE.searchBox).should('be.visible')
+        cy.get(LOCATORS.SEARCH_FEATURE.searchBox).type('{enter}')
+        cy.get(LOCATORS.SEARCH_FEATURE.emptyResult).should('contain', 'There is no product that matches the search criteria.')
+    });
+
 });
 
