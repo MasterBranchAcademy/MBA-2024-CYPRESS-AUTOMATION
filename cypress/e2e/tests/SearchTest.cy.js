@@ -1,12 +1,12 @@
 import LOCATORS from "../../support/locators";
 import SearchPage from "../pages/SearchPage";
 
-describe ("Search tests", () => {
-    
+describe("Search tests", () => {
+
     const searchPage = new SearchPage()
-    
+
     beforeEach(() => {
-        cy.visit ("/")
+        cy.visit("/")
     })
 
     it("Successfully searching for a valid product", () => {
@@ -15,6 +15,15 @@ describe ("Search tests", () => {
         cy.get(LOCATORS.SEARCH_FEATURE.searchBox).should('be.visible')
         cy.get(LOCATORS.SEARCH_FEATURE.searchBox).type('{enter}')
         cy.get(LOCATORS.SEARCH_FEATURE.itemResult).should('be.visible')
-        });
+    });
+
+    it("Performing a search with an empty search box", () => {
+        const item = "  "
+        searchPage.searchItem(item)
+        cy.get(LOCATORS.SEARCH_FEATURE.searchBox).should('be.visible')
+        cy.get(LOCATORS.SEARCH_FEATURE.searchBox).type('{enter}')
+        cy.get(LOCATORS.SEARCH_FEATURE.emptyResult).should('contain', 'There is no product that matches the search criteria.')
+    });
+
 });
 

@@ -21,6 +21,9 @@ const LOCATORS = {
     searchButton: '.button-in-search',
     searchItem: 'Facial Cream',
     itemResult: '.bgnone',
+    emptySearch: '  ',
+    emptyResult: '#maincontainer > div > div > div > div > div:nth-child(4)',
+
   }
 
 }
