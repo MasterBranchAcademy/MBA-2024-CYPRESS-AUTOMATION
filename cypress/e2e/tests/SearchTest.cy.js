@@ -16,5 +16,7 @@ describe ("Search tests", () => {
         cy.get(LOCATORS.SEARCH_FEATURE.searchBox).type('{enter}')
         cy.get(LOCATORS.SEARCH_FEATURE.itemResult).should('be.visible')
         });
+
+        
 });
 
