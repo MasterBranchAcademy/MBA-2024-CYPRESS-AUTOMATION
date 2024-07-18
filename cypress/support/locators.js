@@ -35,6 +35,13 @@ const LOCATORS = {
     loginButton: '#loginFrm > fieldset > button',
     confirmOrderButton: '#checkout_btn',
     assertionText: '#maincontainer > div > div > div > h1 > span.maintext',
+  },
+  REGISTERED_USER: {
+    loginMenu: '#customer_menu_top > li > a',
+    orderHistory: '#maincontainer > div > div.column_right.col-md-3.col-xs-12.mt20 > div.sidewidt > div > ul > li:nth-child(6) > a',
+    orderedItem: '#button_edit',
+    itemStatus: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > div > div.container-fluid > table > tbody > tr:nth-child(2) > td:nth-child(2)',
+
   }
 
 
