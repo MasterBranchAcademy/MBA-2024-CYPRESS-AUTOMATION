@@ -49,8 +49,14 @@ const LOCATORS = {
     cardButton: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(4) > div.thumbnail > div.pricetag.jumbotron.added_to_cart > div.quick_basket > a > i',
     guestchckRadioButt: '#accountFrm_accountguest',
     continueButton: '#accountFrm > fieldset > button',
-    guestInfo: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > h1 > span.maintext'
-    
+    guestInfo: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > h1 > span.maintext' 
+  },
+  VERIFY_PAGE: {
+    apparelAndAccessories: '#categorymenu',
+    shoesStore: '#maincontainer > div > div > div > div > ul > li:nth-child(1) > div > a',
+    firstProduct: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(1) > div.fixed_wrapper > div > a',
+    productText: '#product_details > div > div:nth-child(2) > div > div > h1 > span',
+    details: '#description > ul:nth-child(2)',
   }
 
 
