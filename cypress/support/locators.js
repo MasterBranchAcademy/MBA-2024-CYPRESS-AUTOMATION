@@ -41,7 +41,16 @@ const LOCATORS = {
     orderHistory: '#maincontainer > div > div.column_right.col-md-3.col-xs-12.mt20 > div.sidewidt > div > ul > li:nth-child(6) > a',
     orderedItem: '#button_edit',
     itemStatus: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > div > div.container-fluid > table > tbody > tr:nth-child(2) > td:nth-child(2)',
-
+  },
+  GUEST_FEATURE: {
+    menMenu: '#categorymenu',
+    itemSet: '#maincontainer > div > div > div > div > ul > li:nth-child(2) > div > a',
+    selectItem: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(4) > div.thumbnail > div.pricetag.jumbotron > a > i',
+    cardButton: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(4) > div.thumbnail > div.pricetag.jumbotron.added_to_cart > div.quick_basket > a > i',
+    guestchckRadioButt: '#accountFrm_accountguest',
+    continueButton: '#accountFrm > fieldset > button',
+    guestInfo: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > h1 > span.maintext'
+    
   }
 
 
