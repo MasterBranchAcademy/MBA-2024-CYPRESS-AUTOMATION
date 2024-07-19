@@ -57,6 +57,10 @@ const LOCATORS = {
     firstProduct: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(1) > div.fixed_wrapper > div > a',
     productText: '#product_details > div > div:nth-child(2) > div > div > h1 > span',
     details: '#description > ul:nth-child(2)',
+  },
+  CARD_PAGE:{
+    cremePreciuse: '#product_details > div > div:nth-child(2) > div > div > h1 > span',
+    itemDetails: '.product-list table tr td'
   }
 
 
