@@ -13,6 +13,10 @@ const LOCATORS = {
     promotionItem: '.col-md-3.col-xs-6.promo_block',
     promotionDescription: '.promo_text',
     promotionImage: '.promo_icon',
+    bestsellerSecondProduct: '#block_frame_bestsellers_1771 > div > div:nth-child(2) > div.fixed_wrapper > div > a',
+    bestsellerSecondProductDetailTitle: '#product_details > div > div:nth-child(2) > div > div > h1 > span',
+  
+    
   },
   LOGIN_PAGE: {
   },
