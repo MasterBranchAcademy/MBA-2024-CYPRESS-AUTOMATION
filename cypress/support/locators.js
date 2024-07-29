@@ -49,9 +49,9 @@ const LOCATORS = {
     itemStatus: '#maincontainer > div > div.col-md-9.col-xs-12.mt20 > div > div > div.container-fluid > table > tbody > tr:nth-child(2) > td:nth-child(2)',
   },
   GUEST_FEATURE: {
-    menMenu: '#categorymenu',
-    itemSet: '#maincontainer > div > div > div > div > ul > li:nth-child(2) > div > a',
-    selectItem: '#maincontainer > div > div > div > div > div.thumbnails.grid.row.list-inline > div:nth-child(4) > div.thumbnail > div.pricetag.jumbotron > a > i',
+    menMenu: ".categorymenu>li:nth-child(6)",
+    itemSet: "#maincontainer",
+    selectItem: '.list-inline',
     cardButton: '.cart',
     guestchckRadioButt: '#accountFrm_accountguest',
     continueButton: '#accountFrm > fieldset > button',
